@@ -9,7 +9,6 @@ import {Routes} from '@angular/router';
 
 const routes: Routes = [
    { path: '', canActivate: [  ], loadChildren: () => import('./modules/web/web.module').then(mod => mod.WebModule) },
-   { path: 'a', canActivate: [  ], loadChildren: () => import('./modules/admin/admin.module').then(mod => mod.AdminModule) },
 ];
 
 @NgModule({
