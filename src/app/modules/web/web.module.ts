@@ -5,19 +5,22 @@ import {RouterModule} from '@angular/router';
 import {Routes} from '@angular/router';
 import {ROUTES} from '@angular/router';
 
-import {AuthGuard} from './guards/auth.guard';
 
+
+import {AboutPage} from './pages/about.page';
 import {IndexPage} from './pages/index.page';
 import {LoginPage} from './pages/login.page';
 
 
 const routes: Routes = [
+   { path: 'home', canActivate: [  ], component: IndexPage },
    { path: 'login', canActivate: [  ], component: LoginPage },
-   { path: '', canActivate: [ AuthGuard ], component: IndexPage },
+   { path: 'about', canActivate: [  ], component: AboutPage },
 ];
 
 @NgModule({
   declarations: [
+     AboutPage,
      IndexPage,
      LoginPage,
   ],
