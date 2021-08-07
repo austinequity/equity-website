@@ -11,6 +11,7 @@ import {AboutPage} from './pages/about.page';
 import {HowitworksPage} from './pages/howitworks.page';
 import {IndexPage} from './pages/index.page';
 import {LoginPage} from './pages/login.page';
+import {RegistrationPage} from './pages/registration.page';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
    { path: 'login', canActivate: [  ], component: LoginPage },
    { path: 'about', canActivate: [  ], component: AboutPage },
    { path: 'howitworks', canActivate: [  ], component: HowitworksPage },
+   { path: 'registration', canActivate: [  ], component: RegistrationPage },
 ];
 
 @NgModule({
@@ -26,6 +28,7 @@ const routes: Routes = [
      HowitworksPage,
      IndexPage,
      LoginPage,
+     RegistrationPage,
   ],
   imports: [
     CommonModule,
