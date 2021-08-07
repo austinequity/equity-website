@@ -17,6 +17,7 @@ const routes: Routes = [
    { path: 'home', canActivate: [  ], component: IndexPage },
    { path: 'login', canActivate: [  ], component: LoginPage },
    { path: 'about', canActivate: [  ], component: AboutPage },
+   { path: 'howitworks', canActivate: [  ], component: HowitworksPage },
 ];
 
 @NgModule({
