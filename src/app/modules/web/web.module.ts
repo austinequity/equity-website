@@ -8,6 +8,7 @@ import {ROUTES} from '@angular/router';
 
 
 import {AboutPage} from './pages/about.page';
+import {HowitworksPage} from './pages/howitworks.page';
 import {IndexPage} from './pages/index.page';
 import {LoginPage} from './pages/login.page';
 
@@ -21,6 +22,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [
      AboutPage,
+     HowitworksPage,
      IndexPage,
      LoginPage,
   ],
