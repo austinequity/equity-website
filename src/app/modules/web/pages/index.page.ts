@@ -6,7 +6,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
 @Component({
     selector: 'app-index-page',
     template: `<nav>
-    <label><a class="title" href="index.html">AUSTIN'S EQUITY</a></label>
+    <label><a class="title" href="index.html">AUSTIN EQUITY</a></label>
     <ul class="topnav">
         <li><a class="othert" href="howitworks.html">How it works?</a></li>
         <li><a class="othert" href="about.html">ABOUT</a></li>
@@ -14,7 +14,15 @@ import {BehaviorSubject, Subject} from 'rxjs';
         <li><a class="othert" href="register.html">REGISTER</a></li>
     </ul>
 </nav>
-<div class="banner"></div>
+<div class="banner">
+<div class="showcasebanner">
+<p>Invest today to build<br>
+ your future Tommorow.</p>
+ <form>
+ <input placeholder="Enter email here" type="email" name="emailid" class="showcaseemail"><input type="submit" name="login" class="getstarted" value="GET STARTED">
+ </form>
+ </div>
+ </div>
 <div class="wrapper">
 
     <div class="itemgrid">

@@ -19,7 +19,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
   <br><br>
   <div class="login-card">
     <div class="log_head">
-      <h1></h1>
+    
       <span class="material-icons lock" style="font-size: 60px; color: aliceblue  ;">
         login
       </span>
