@@ -23,15 +23,20 @@ import {BehaviorSubject, Subject} from 'rxjs';
  </form>
  </div>
  </div>
+<br><br>
+
+
 <div class="wrapper">
 
     <div class="itemgrid">
-        <div class="item"></div>
+        <div class="item"><i src="assets/imgsvd/agriculture.png></i></div>
         <div class="item"></div>
         <div class="item"></div>
     </div>
 
 </div>
+
+
 
 <footer>
     <div class="sector-footer-grid">
