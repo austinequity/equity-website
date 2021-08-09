@@ -24,7 +24,11 @@ const routes: Routes = [
 })
 export class AustinequityModule {
     constructor(){
-        
+        //your codes
+bfast.init({
+    applicationId: '06c83f5d-97fb-43ec-939c-8cd8cab38ef8',
+    projectId: '7aa01166-590d-4881-b13f-c23a71e90fbe'
+});
     }// end
 }
 

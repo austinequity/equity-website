@@ -5,15 +5,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
 
 @Component({
     selector: 'app-howitworks-page',
-    template: `<nav>
-        <label><a class="title" href="index.html">AUSTIN'S EQUITY</a></label>
-        <ul class="topnav"> 
-       <li><a class="othert" href="howitworks.html">How it works?</a></li>
-    <li><a class="othert" href="about.html">ABOUT</a></li>
-    <li><a class="othert" href="login.html">LOGIN</a></li>
-    <li><a class="othert" href="register.html">REGISTER</a></li>
-         </ul>
-</nav>
+    template: `<app-navbar></app-navbar>
     
     <div class="wrapper">
         
@@ -32,23 +24,23 @@ import {BehaviorSubject, Subject} from 'rxjs';
         <div class="main-itworks-columns">
       <div class="itworks-columns">
 <div class="itworkcolumn">
-    <h9>KYC</h9>
+    <h2>KYC</h2>
     <P class="iwc-p">After a simple registration you will need to identify yourself (KYC) due to requirements from a financial regulator.</P>
 </div>
 <div class="itworkcolumn">
-    <h9>DEPOSITS</h9>
+    <h2>DEPOSITS</h2>
     <P class="iwc-p">To start investing you need to make a deposit. You can do this either via bank deposit, via credit card, Mobile network operators (Mpesa,Tigopesa,...). The deposited money is being held in a separate bank account until the project is funded and then are being released to the project.</P>
 </div>
 <div class="itworkcolumn">
-    <h9>PROJECT FUNDING</h9>
+    <h2>PROJECT FUNDING</h2>
     <P class="iwc-p">Once you have made deposit the fund is transfered to specific project invested in by you.</P>
 </div>
 <div class="itworkcolumn">
-    <h9>INTEREST/YIELD</h9>
+    <h2>INTEREST/YIELD</h2>
     <P class="iwc-p">As the time passes - you will receive payouts according to the project schedule.</P>
 </div>
 <div class="itworkcolumn">
-    <h9>PRINCIPAL PAYOUT</h9>
+    <h2>PRINCIPAL PAYOUT</h2>
     <P class="iwc-p">Once the project deadline is reached, the project will pay back the principal amount with the outstanding interests to your account in Austin's equity.</P>
 </div>
       </div>
@@ -66,40 +58,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
 
 
 
-    <footer>
-        <div class="sector-footer-grid">
-      <div class="company">
-        <ol>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#pricing">Our pricing</a></li>
-          <li><a href="#latest news">Latest news</a></li>
-        </ol>
-      
-      </div>
-      
-      <div class="support">
-        <ol>
-          <li><a href="#FAQ'S">FAQ'S</a></li>
-          <li><a href="#privacypolicy">Privacy policy</a></li>
-          <li><a href="#terms&conditions">Terms & Conditions</a></li>
-          <li><a href="#community">Community</a></li>
-          <li><a href="#contact us">Contact us</a></li>
-        </ol>
-      </div>
-      
-      <div class="address">
-        <ol>
-          <li>Location: Dar es salaam,Tanzania</li>
-          <li>Email:info@patientcapital.com</li>
-          <li>Phone:+255748288520</li>
-          
-        </ol>
-      </div>
-      </div>
-      <article align="center">Patientcapital technologies @2021</article>
-      </footer>`,
+    <app-footer></app-footer>`,
     styleUrls: ['../styles/web.style.scss']
 })
 export class HowitworksPage implements OnInit, OnDestroy{

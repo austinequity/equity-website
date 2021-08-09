@@ -4,14 +4,13 @@ import {BehaviorSubject, Subject} from 'rxjs';
 
 
 @Component({
-    selector: 'app-index-page',
+    selector: 'app-projects-page',
     template: `<app-navbar></app-navbar>
-<app-banner></app-banner>
-<app-categories></app-categories>
+<app-projects></app-projects>
 <app-footer></app-footer>`,
-    styleUrls: ['../styles/web.style.scss']
+    styleUrls: []
 })
-export class IndexPage implements OnInit, OnDestroy{
+export class ProjectsPage implements OnInit, OnDestroy{
     constructor(){
     }
     

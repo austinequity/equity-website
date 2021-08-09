@@ -63,9 +63,12 @@ ul li a:hover{
 }
 
 .showcasebanner {
- margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
-
 
 .showcasebanner p{
 color: white;
@@ -73,7 +76,7 @@ font-size: 30px;
 font-family: arial;
 line-height: 35px;
 // text-align: center;
-padding-top: 4em;
+// padding-top: 4em;
 
 }
 
