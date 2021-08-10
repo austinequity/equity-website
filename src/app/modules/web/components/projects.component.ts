@@ -21,7 +21,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
             </div>
     </div>
     <div class="container-prog-perc">
-        <div class="progress-bar">
+        <div class="container-progress-bar">
 
         </div>
 
