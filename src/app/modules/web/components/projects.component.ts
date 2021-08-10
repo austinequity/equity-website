@@ -6,9 +6,34 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 @Component({
     selector: 'app-projects',
     template: `<div class="container-fluid">
-    
+    <div class="project-image">
+        <div class="funded-unfunded">
+         
+        </div>
+    </div>
+    <div class="container-title-budget">
+            <div class="container-title">
+                
+            </div>
+
+            <div class="container-budget">
+
+            </div>
+    </div>
+    <div class="container-prog-perc">
+        <div class="progress-bar">
+
+        </div>
+
+        <div class="percentage-details">
+
+        </div>
+    </div>
+        <div class="view-project">
+            
+        </div>
 </div>`,
-    styleUrls: []
+    styleUrls: ['../styles/project-container-fluid.style.scss']
 })
 export class ProjectsComponent implements OnInit, OnDestroy, AfterViewInit {
 

@@ -1,0 +1,48 @@
+.container-fluid{
+height:543px ;
+width:395px ;
+// margin: 50px;
+display:-grid;
+// flex-wrap: wrap;
+// justify-content: center;
+// flex-direction: column;
+// align-items: center;
+background-color: red;
+}
+
+.funded-unfunded{
+    height: 29px;
+    width: 93;
+    background-color: yellow;
+
+}
+
+.project-image{
+height: 270px;
+width:100%;
+// position:relative; 
+// align-content: top; 
+background-repeat: no-repeat;
+background-color: blue;
+}
+
+.container-title-budget{
+    height:106px ;
+    width: 100%;
+    // background-color: green;
+    display: grid;
+    
+
+}
+
+.container-title{
+    height:63px ;
+    width:100px ;
+    background-color: white;
+}
+
+.container-budget{
+    background-color: black;
+    width: 100%0;
+    height: 44px;
+}
