@@ -10,10 +10,11 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
         <div>
             <p>
                 Invest today to build<br>
-                your future Tommorow.
+                 your future Tommorow.
             </p>
             <form>
-                <input placeholder="Enter email here" type="email" name="emailid" class="showcaseemail"><input type="submit" name="login" class="getstarted" value="GET STARTED">
+                <input placeholder="Enter email here" type="email" name="emailid" class="showcaseemail">
+                <input type="submit" name="login" class="getstarted" value="START INVESTING">
             </form>
         </div>
     </div>

@@ -47,7 +47,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
 
 
 <div align="center" class="register-itwork" >
-    <a href="register.html" class="register-itworks">start investing</a>
+    <a routerLink='/register' class="register-itworks">start investing</a>
 </div>
 
       </div>

@@ -1,6 +1,7 @@
 import {bfast, BFast} from 'bfastjs';
 import {Component, EventEmitter, Input, OnInit, Output, OnDestroy} from '@angular/core';
 import {BehaviorSubject, Subject} from 'rxjs';
+import {ProjectState} from '../states/project.state';
 
 
 @Component({
@@ -11,7 +12,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
     styleUrls: []
 })
 export class ProjectsPage implements OnInit, OnDestroy{
-    constructor(){
+    constructor(public readonly projectState: ProjectState){
     }
     
     async ngOnInit(): Promise<any> {
