@@ -8,13 +8,14 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
     template: `<nav>
     <label><a class="title" href="index.html">AUSTIN EQUITY</a></label>
     <ul class="topnav">
+        <li><a class="othert" routerLink='/projects/:category'>projects</a></li>
         <li><a class="othert" routerLink='/howitworks'>How it works?</a></li>
         <li><a class="othert" routerLink='/about'>ABOUT</a></li>
         <li><a class="othert" routerLink='/login'>LOGIN</a></li>
         <li><a class="othert" routerLink='/register'>REGISTER</a></li>
     </ul>
 </nav>`,
-    styleUrls: ['../styles/web.style.scss']
+    styleUrls: ['../styles/navbar.style.scss']
 })
 export class NavbarComponent implements OnInit, OnDestroy, AfterViewInit {
 

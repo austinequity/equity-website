@@ -39,7 +39,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
   </div>
   <article align="center">codenasi technologies @2021</article>
 </footer>`,
-    styleUrls: ['../styles/web.style.scss']
+    styleUrls: ['../styles/footer.style.scss']
 })
 export class FooterComponent implements OnInit, OnDestroy, AfterViewInit {
 
