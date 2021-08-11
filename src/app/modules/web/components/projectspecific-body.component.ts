@@ -12,7 +12,15 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
     </div>
     <div class="secured-investment">
         
+    </div>   
+
+    <div class="prjctspcfic-body-paragraph">
+
     </div>    
+
+    <div class="prjctspcfic-body-investing">
+
+    </div>     
 
 
 </div>`,
