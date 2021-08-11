@@ -5,8 +5,18 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 
 @Component({
     selector: 'app-projectspecific-body',
-    template: `undefined`,
-    styleUrls: []
+    template: `<!-- prjctspcfic-body-grid = projectspecific body-grid -->
+<div class="prjctspcfic-body-grid">
+    <div class="prjctspcfic-links">
+
+    </div>
+    <div class="secured-investment">
+        
+    </div>    
+
+
+</div>`,
+    styleUrls: ['../styles/prjct-specific-body.style.scss']
 })
 export class ProjectspecificBodyComponent implements OnInit, OnDestroy, AfterViewInit {
 

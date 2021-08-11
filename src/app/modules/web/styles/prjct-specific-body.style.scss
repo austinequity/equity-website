@@ -1,0 +1,21 @@
+*{
+  outline: 1px dotted red   
+}
+.prjctspcfic-body-grid{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns:3fr 1fr;
+    width: 80%;
+}
+
+.prjctspcfic-links{
+    height:70px ;
+    width: 100%;
+    background-color: yellow;
+}
+
+.secured-investment{
+    height: 70px;
+    width: 100%;
+    background-color: brown;
+}

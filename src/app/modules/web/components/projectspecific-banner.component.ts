@@ -5,8 +5,10 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 
 @Component({
     selector: 'app-projectspecific-banner',
-    template: `undefined`,
-    styleUrls: []
+    template: `<div class="prjct-specific-banner" >
+
+</div>`,
+    styleUrls: ['../styles/prjct-specific.style.scss']
 })
 export class ProjectspecificBannerComponent implements OnInit, OnDestroy, AfterViewInit {
 
