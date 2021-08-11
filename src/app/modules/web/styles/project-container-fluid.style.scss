@@ -1,20 +1,25 @@
+* { outline: 1px dotted red } 
+
 *{
     padding: 0px;
 }
 
 .container-project-body{
-// margin: 0 auto;   
+margin: 0 auto;   
 width: 80%;
 display:grid;
- grid-template-columns:1fr 1fr 1fr;
+grid-template-columns:1fr 1fr 1fr;
+
+
 
 }
 
 .container-fluid{
 height:343px;
-width:395px ;
+// width:395px ;
+width: 350px;
 display:grid;
-padding:0px 10px;
+padding:0px 0px;
 
 }
 
@@ -22,14 +27,14 @@ padding:0px 10px;
 
 
 .project-image{
-height: 271.5px;
+height: 171.5px;
 width:100%;
 background-repeat: repeat;
 background-color: blue;
 }
 
 .container-title-budget{
-    height:108.6px;
+    height:68.6px;
     width: 100%;
    background-color: blue;
 }
@@ -47,7 +52,7 @@ background-color: blue;
 }
 
 .container-prog-perc{
-    height:108.6px ;
+    height:68.6px ;
     width:100%;
     background-color: blue;
 }
@@ -66,7 +71,7 @@ background-color: blue;
 }
 
 .view-project{
-    height: 54.3px;
+    height: 34.3px;
     width: 100%;
     background-color: blue;
    
