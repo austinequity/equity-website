@@ -14,11 +14,14 @@ import {FooterComponent} from './components/footer.component';
 import {NavbarComponent} from './components/navbar.component';
 import {ProjectsFilterComponent} from './components/projects-filter.component';
 import {ProjectsComponent} from './components/projects.component';
+import {ProjectspecificBannerComponent} from './components/projectspecific-banner.component';
+import {ProjectspecificBodyComponent} from './components/projectspecific-body.component';
 import {AboutPage} from './pages/about.page';
 import {HowitworksPage} from './pages/howitworks.page';
 import {IndexPage} from './pages/index.page';
 import {LoginPage} from './pages/login.page';
 import {ProjectsPage} from './pages/projects.page';
+import {ProjectspecificPage} from './pages/projectspecific.page';
 import {RegistrationPage} from './pages/registration.page';
 
 
@@ -30,6 +33,7 @@ const routes: Routes = [
    { path: '', canActivate: [  ], component: IndexPage },
    { path: 'projects/:category', canActivate: [  ], component: ProjectsPage },
    { path: 'register', canActivate: [  ], component: RegistrationPage },
+   { path: 'projectspecific', canActivate: [  ], component: ProjectspecificPage },
 ];
 
 @NgModule({
@@ -39,6 +43,7 @@ const routes: Routes = [
      IndexPage,
      LoginPage,
      ProjectsPage,
+     ProjectspecificPage,
      RegistrationPage,
      BannerComponent,
      CategoriesComponent,
@@ -48,6 +53,8 @@ const routes: Routes = [
      NavbarComponent,
      ProjectsFilterComponent,
      ProjectsComponent,
+     ProjectspecificBannerComponent,
+     ProjectspecificBodyComponent,
   ],
   imports: [
     CommonModule,
