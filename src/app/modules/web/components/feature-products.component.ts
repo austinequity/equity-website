@@ -5,7 +5,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 
 @Component({
     selector: 'app-feature-products',
-    template: `<div class="wrapper">
+    template: `<!-- <div class="wrapper">
 
     <div class="itemgrid">
         <div class="item"></div>
@@ -13,7 +13,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
         <div class="item"></div>
     </div>
 
-</div>`,
+</div> -->`,
     styleUrls: ['../styles/web.style.scss']
 })
 export class FeatureProductsComponent implements OnInit, OnDestroy, AfterViewInit {

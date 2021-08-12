@@ -19,7 +19,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
         </div>
     </div>
 </div>`,
-    styleUrls: ['../styles/web.style.scss']
+    styleUrls: ['../styles/home-banner.style.scss']
 })
 export class BannerComponent implements OnInit, OnDestroy, AfterViewInit {
 

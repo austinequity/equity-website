@@ -1,0 +1,36 @@
+.banner{
+  width:100%;
+  height: 377px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/imgsvd/banner.png');
+}
+
+.showcasebanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.showcasebanner p{
+color: white;
+font-size: 30px;
+font-family: arial;
+line-height: 35px;
+// text-align: center;
+// padding-top: 4em;
+
+}
+
+.showcaseemail{
+  background:#FEFEFE; color:black; width:349px; height:60px; padding:5px; font-family:open Sans; font-weight:700px; font-size:15px; border:none;
+  
+  }
+
+   .getstarted{
+  background:#0D9D2D; border:none; width:135px; height:60px; cursor:pointer; font-family:open Sans; font-weight:700px; font-size:15px; color:#FFFFFF; 
+
+ } 
