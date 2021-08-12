@@ -59,7 +59,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
 
 
     <app-footer></app-footer>`,
-    styleUrls: ['../styles/web.style.scss']
+    styleUrls: ['../styles/howitworks.style.scss']
 })
 export class HowitworksPage implements OnInit, OnDestroy{
     constructor(){

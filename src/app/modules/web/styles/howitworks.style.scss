@@ -1,0 +1,64 @@
+
+.wrapper{
+margin: 0 auto;
+width:80%;
+}
+
+.imagehow{
+  background-color: rgb(249, 249, 252);
+}
+
+.howitworks{
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/imgsvd/howto.png');
+}
+
+.main-itworks-columns{
+  background-color: white;
+  margin: 45px 0px 45px;
+  
+}
+
+.itworks-columns{
+  padding: 15px;
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  //  margin: 45px 0px 45px;  
+}
+
+.itworkcolumn{
+  padding: 10px;
+  line-height: 1.7;
+}
+
+.iwc-p{
+  font-size: 18px;
+  color: #7c7c7c;
+}
+
+.register-itwork{
+  padding-bottom: 2em;
+  background-color: aliceblue;
+}
+
+.register-itworks{
+  background:#4DC889; border:none; border-radius: 10px; width:140px; height:30px; cursor:pointer; font-family:open Sans; font-weight:700px; font-size:20px; color:#FFFFFF;
+  display: block; text-decoration: none; padding-top:10px ;
+  
+}
+
+.register-itworks:hover{
+  background:darkgreen;
+}
+
+h2{
+  text-decoration: underline rgb(32, 32, 211);
+  font-size: 20px;
+  color: #302f2f;
+
+}

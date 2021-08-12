@@ -61,7 +61,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
 
 
   <app-footer></app-footer>`,
-    styleUrls: ['../styles/web.style.scss']
+    styleUrls: ['../styles/loginxregistration.style.scss']
 })
 export class LoginPage implements OnInit, OnDestroy{
     constructor(){

@@ -34,7 +34,7 @@ Founded in 2021 by Austin Sanga, AUSTIN EQUITY COMPANY LIMITED has come a long w
 </div>
 
 <app-footer></app-footer>`,
-    styleUrls: ['../styles/web.style.scss']
+    styleUrls: ['../styles/about.style.scss']
 })
 export class AboutPage implements OnInit, OnDestroy{
     constructor(){
