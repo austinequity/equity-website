@@ -4,6 +4,8 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 declare var mobileMenu: any;
 declare var closeMenu: any;
 
+// haifanyi kazi hiki kihumburger
+
 @Component({
     selector: 'app-navbar',
     template: `<header class="header">
