@@ -10,7 +10,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
     selector: 'app-navbar',
     template: `<header class="header">
     <nav class="navbar">
-        <label><a class="title" href="index.html">AUSTIN EQUITY</a>
+        <label><a class="title" routerLink='/index'>AUSTIN EQUITY</a>
         </label>
             <ul class="topnav">
                 <li class="nav-item" >
@@ -65,22 +65,22 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 })
 export class NavbarComponent implements OnInit, OnDestroy, AfterViewInit {
 
-    
-    
+
+
     constructor(){
     }
-    
+
     async ngOnInit(): Promise<any> {
-        // new mobileMenu(); 
+        // new mobileMenu();
         // new closeMenu();
     }
 
     async ngAfterViewInit(): Promise<any> {
-        
+
     }
 
     async ngOnDestroy(): Promise<any> {
-        
+
     }
 
     async mobileMenu(): Promise<any> {

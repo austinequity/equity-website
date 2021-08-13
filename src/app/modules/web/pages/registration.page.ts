@@ -6,7 +6,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
 @Component({
     selector: 'app-registration-page',
     template: `<app-navbar></app-navbar>
-   
+
 
 <br><br>
 
@@ -18,8 +18,8 @@ import {BehaviorSubject, Subject} from 'rxjs';
                 app_registration
                 </span>
         </div>
-        
-        
+
+
         <div class="log_body">
         <form action="#" method="get" name="registrationform" onsubmit="return(registervalidate());">
          <table width="200" border="0" align="center">
@@ -69,16 +69,16 @@ import {BehaviorSubject, Subject} from 'rxjs';
              <td>Already have an account ?<a href="login.html" rel="login" style="color: darkgreen;">Sign Up</a></td>
             </tr>
           </table>
-          
-          </form> 
+
+          </form>
           </div>
-          
+
           </div>
 
 
     <br><br>
-    
-  
+
+
 
     <app-footer></app-footer>`,
     styleUrls: ['../styles/loginxregistration.style.scss']
@@ -86,13 +86,13 @@ import {BehaviorSubject, Subject} from 'rxjs';
 export class RegistrationPage implements OnInit, OnDestroy{
     constructor(){
     }
-    
+
     async ngOnInit(): Promise<any> {
-        
+
     }
 
     async ngOnDestroy(): Promise<any> {
-        
+
     }
 }
 
