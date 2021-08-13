@@ -1,8 +1,8 @@
 import {bfast, BFast} from 'bfastjs';
 import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output, ViewChild} from '@angular/core';
 
-declare var mobileMenu: any;
-declare var closeMenu: any;
+// declare var mobileMenu: any;
+// declare var closeMenu: any;
 
 // haifanyi kazi hiki kihumburger
 
@@ -29,7 +29,7 @@ declare var closeMenu: any;
                     <a class="nav-link" routerLink='/register'>REGISTER</a>
                 </li>
             </ul>
-            <div class="humburger">
+            <div (click)="mobileMenu()" class="humburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -62,18 +62,17 @@ declare var closeMenu: any;
         </nav>
     </header> -->`,
     styleUrls: ['../styles/navbar.style.scss']
-    
 })
 export class NavbarComponent implements OnInit, OnDestroy, AfterViewInit {
 
-  
+    
     
     constructor(){
     }
     
     async ngOnInit(): Promise<any> {
-        new mobileMenu(); 
-        new closeMenu();
+        // new mobileMenu(); 
+        // new closeMenu();
     }
 
     async ngAfterViewInit(): Promise<any> {
@@ -82,6 +81,10 @@ export class NavbarComponent implements OnInit, OnDestroy, AfterViewInit {
 
     async ngOnDestroy(): Promise<any> {
         
+    }
+
+    async mobileMenu(): Promise<any> {
+        const hb = document.getElementsByClassName('hamburger');
     }
 }
 
