@@ -1,7 +1,8 @@
 import {bfast, BFast} from 'bfastjs';
 import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output, ViewChild} from '@angular/core';
 
-
+declare var mobileMenu: any;
+declare var closeMenu: any;
 
 @Component({
     selector: 'app-navbar',
@@ -59,16 +60,18 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
         </nav>
     </header> -->`,
     styleUrls: ['../styles/navbar.style.scss']
+    
 })
 export class NavbarComponent implements OnInit, OnDestroy, AfterViewInit {
 
-    
+  
     
     constructor(){
     }
     
     async ngOnInit(): Promise<any> {
-        
+        new mobileMenu(); 
+        new closeMenu();
     }
 
     async ngAfterViewInit(): Promise<any> {
