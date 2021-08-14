@@ -73,6 +73,7 @@ export class NavbarComponent implements OnInit, OnDestroy, AfterViewInit {
     async ngOnInit(): Promise<any> {
         // new mobileMenu();
         // new closeMenu();
+        // have to use angular material for responsivness
     }
 
     async ngAfterViewInit(): Promise<any> {
