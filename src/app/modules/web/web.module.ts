@@ -5,7 +5,6 @@ import {RouterModule} from '@angular/router';
 import {Routes} from '@angular/router';
 import {ROUTES} from '@angular/router';
 
-
 import {BannerComponent} from './components/banner.component';
 import {CategoriesComponent} from './components/categories.component';
 import {CategoryItemComponent} from './components/category-item.component';

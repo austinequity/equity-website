@@ -5,6 +5,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 
 @Component({
     selector: 'app-navbar',
+   
     template: `<header class="header">
     <nav class="navbar">
         <label><a class="title" routerLink='/index'>AUSTIN EQUITY</a>
