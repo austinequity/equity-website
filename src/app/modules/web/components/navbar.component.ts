@@ -26,7 +26,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
                     <a class="nav-link" routerLink='/register'>REGISTER</a>
                 </li>
             </ul>
-            <div (click)="mobileMenu()" class="humburger">
+            <div class="humburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -62,24 +62,21 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 })
 export class NavbarComponent implements OnInit, OnDestroy, AfterViewInit {
 
-
-
+    
+    
     constructor(){
     }
-
+    
     async ngOnInit(): Promise<any> {
-       
+        
     }
 
     async ngAfterViewInit(): Promise<any> {
-
+        
     }
 
     async ngOnDestroy(): Promise<any> {
-
+        
     }
-
-    
 }
-
 

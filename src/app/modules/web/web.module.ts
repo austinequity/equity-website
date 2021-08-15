@@ -68,7 +68,7 @@ const routes: Routes = [
         }
       ]
     },
-  
+    
   ],
   exports: [
     
@@ -77,6 +77,6 @@ const routes: Routes = [
 export class WebModule {
     constructor(){
         
-    }
+    }// end
 }
 
