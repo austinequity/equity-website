@@ -1,0 +1,22 @@
+.deposit-body{
+    margin: 0 auto;
+    width: 80%;
+// background-color: green;
+}
+
+.deposit-balance{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.deposit-menu-tabs{
+    margin: 0 auto;
+    width: 80%;
+    // background-color: red;
+    height: 300px;
+}
+
+.deposit-menu-tabs::before{
+    content: 'Select mode of deposit';
+}
+

@@ -5,9 +5,11 @@ import {RouterModule} from '@angular/router';
 import {Routes} from '@angular/router';
 import {ROUTES} from '@angular/router';
 
+
 import {BannerComponent} from './components/banner.component';
 import {CategoriesComponent} from './components/categories.component';
 import {CategoryItemComponent} from './components/category-item.component';
+import {DepositBodyComponent} from './components/deposit-body.component';
 import {FeatureProductsComponent} from './components/feature-products.component';
 import {FooterComponent} from './components/footer.component';
 import {NavbarComponent} from './components/navbar.component';
@@ -16,6 +18,7 @@ import {ProjectsComponent} from './components/projects.component';
 import {ProjectspecificBannerComponent} from './components/projectspecific-banner.component';
 import {ProjectspecificBodyComponent} from './components/projectspecific-body.component';
 import {AboutPage} from './pages/about.page';
+import {DepositionPagePage} from './pages/deposition-page.page';
 import {HowitworksPage} from './pages/howitworks.page';
 import {IndexPage} from './pages/index.page';
 import {LoginPage} from './pages/login.page';
@@ -33,11 +36,13 @@ const routes: Routes = [
    { path: 'projects/:category', canActivate: [  ], component: ProjectsPage },
    { path: 'register', canActivate: [  ], component: RegistrationPage },
    { path: 'projectspecific', canActivate: [  ], component: ProjectspecificPage },
+   { path: 'deposit', canActivate: [  ], component: DepositionPagePage },
 ];
 
 @NgModule({
   declarations: [
      AboutPage,
+     DepositionPagePage,
      HowitworksPage,
      IndexPage,
      LoginPage,
@@ -47,6 +52,7 @@ const routes: Routes = [
      BannerComponent,
      CategoriesComponent,
      CategoryItemComponent,
+     DepositBodyComponent,
      FeatureProductsComponent,
      FooterComponent,
      NavbarComponent,

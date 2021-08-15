@@ -27,7 +27,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
                     <a class="nav-link" routerLink='/register'>REGISTER</a>
                 </li>
             </ul>
-            <div class="humburger">
+            <div class="humburger" tabindex="0">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -58,6 +58,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
                 <span class="bar"></span>
             </div>
         </nav>
+        
     </header> -->`,
     styleUrls: ['../styles/navbar.style.scss']
 })
