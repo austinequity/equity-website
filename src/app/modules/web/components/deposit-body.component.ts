@@ -14,6 +14,15 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
     <div class="deposit-menu-tabs">
         <mat-tab-group>
             <mat-tab label="BANK TRANSFER">
+                <div>
+                    <img src="/assets/imgsvd/crdb.png">
+                    <p>Bank:CRDB <br>
+                       Account Name:Austin Equity Company Limited<br>
+                       Phone Number: +255748288520<br>
+                       Address:Dar es Salaam, Tanzania
+                       <br><br>
+                       Payment descripton: Attach user account name.</p>
+                </div>
             </mat-tab>
             <mat-tab label="MOBILE NETWORK">
                 <div class="mobile-grid">
@@ -64,6 +73,8 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
                 </div>
             </mat-tab>
             <mat-tab label="VISA/MASTERCARD">
+            <img src="/assets/imgsvd/msvs.png">
+            <button>PROCEED TO PAYMENT PORTAL</button>
             </mat-tab>
         </mat-tab-group>
     </div>
