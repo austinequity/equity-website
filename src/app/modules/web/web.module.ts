@@ -2,9 +2,8 @@ import {bfast} from 'bfastjs';
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule} from '@angular/router';
-import {Routes} from '@angular/router'; 
+import {Routes} from '@angular/router';
 import {ROUTES} from '@angular/router';
-// import {MatButtonModule} from '@angular/material';
 
 
 import {BannerComponent} from './components/banner.component';
@@ -26,7 +25,8 @@ import {LoginPage} from './pages/login.page';
 import {ProjectsPage} from './pages/projects.page';
 import {ProjectspecificPage} from './pages/projectspecific.page';
 import {RegistrationPage} from './pages/registration.page';
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatTabsModule} from '@angular/material/tabs';
 
 const routes: Routes = [
    { path: 'home', canActivate: [  ], component: IndexPage },
@@ -74,8 +74,8 @@ const routes: Routes = [
         }
       ]
     },
-    // MatButtonModule
-    
+    MatButtonModule,
+    MatTabsModule,
   ],
   exports: [
     

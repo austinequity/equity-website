@@ -5,7 +5,7 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {RouterModule} from '@angular/router';
 import {Routes} from '@angular/router';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 const routes: Routes = [
    { path: '', canActivate: [  ], loadChildren: () => import('./modules/web/web.module').then(mod => mod.WebModule) },
@@ -17,7 +17,7 @@ const routes: Routes = [
     BrowserModule,
     CommonModule,
     RouterModule.forRoot(routes),
-    
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
