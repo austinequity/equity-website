@@ -5,7 +5,6 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 
 @Component({
     selector: 'app-navbar',
-   
     template: `<header class="header">
     <nav class="navbar">
         <label><a class="title" routerLink='/index'>AUSTIN EQUITY</a>
@@ -27,11 +26,19 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
                     <a class="nav-link" routerLink='/register'>REGISTER</a>
                 </li>
             </ul>
-            <div class="humburger" tabindex="0">
+            <div class="humburger" tabindex="0" mat-button (click)="drawer.toggle()">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+            
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p>Auto-resizing sidenav</p>
+  </mat-drawer>
+
+  
+
+
     </nav>
 </header>
 

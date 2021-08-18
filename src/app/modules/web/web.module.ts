@@ -27,6 +27,8 @@ import {ProjectspecificPage} from './pages/projectspecific.page';
 import {RegistrationPage} from './pages/registration.page';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 const routes: Routes = [
    { path: 'home', canActivate: [  ], component: IndexPage },
@@ -38,6 +40,7 @@ const routes: Routes = [
    { path: 'register', canActivate: [  ], component: RegistrationPage },
    { path: 'projectspecific', canActivate: [  ], component: ProjectspecificPage },
    { path: 'deposit', canActivate: [  ], component: DepositionPagePage },
+   { path: 'index', canActivate: [  ], component: IndexPage },
 ];
 
 @NgModule({
@@ -76,6 +79,8 @@ const routes: Routes = [
     },
     MatButtonModule,
     MatTabsModule,
+    MatSidenavModule,
+    MatProgressBarModule,
   ],
   exports: [
     

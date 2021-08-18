@@ -26,15 +26,15 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
         </div>
         <div class="container-prog-perc">
             <div class="container-progress-bar">
-
+             <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
             </div>
 
             <div class="percentage-details">
 
             </div>
         </div>
-        <div class="view-project">
-
+        <div class="view-project" style="align:center">
+         <label >view Project</label>
         </div>
     </div>
 
