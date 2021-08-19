@@ -19,7 +19,13 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
     </div>    
 
     <div class="prjctspcfic-body-investing">
-
+        <div class="funding-target">
+            <h1>Funding target</h1>
+            <h2 class="amount-target">1,000,000</h2>
+        </div>
+        <div class="progress-bar">
+           <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+        </div>
     </div>     
 
 

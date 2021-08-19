@@ -1,5 +1,7 @@
 *{
-  outline: 1px dotted red   
+  outline: 1px dotted red;
+  margin: 0 auto;
+  padding: 0;
 }
 .prjctspcfic-body-grid{
     display: grid;
@@ -35,9 +37,21 @@
 }
 
 .prjctspcfic-body-investing{
-    height: 200px;
+    height: 300px;
     width: 100%;
-    background-color: blue; 
-    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
    
+}
+
+
+.amount-target{
+    margin: 0 ;
+}
+
+h1{
+    margin: 0 ;
+    font-size:18px;
 }
