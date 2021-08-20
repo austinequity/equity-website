@@ -10,7 +10,6 @@ import {BannerComponent} from './components/banner.component';
 import {CategoriesComponent} from './components/categories.component';
 import {CategoryItemComponent} from './components/category-item.component';
 import {DepositBodyComponent} from './components/deposit-body.component';
-import {FeatureProductsComponent} from './components/feature-products.component';
 import {FooterComponent} from './components/footer.component';
 import {NavbarComponent} from './components/navbar.component';
 import {ProjectsFilterComponent} from './components/projects-filter.component';
@@ -57,7 +56,6 @@ const routes: Routes = [
      CategoriesComponent,
      CategoryItemComponent,
      DepositBodyComponent,
-     FeatureProductsComponent,
      FooterComponent,
      NavbarComponent,
      ProjectsFilterComponent,
