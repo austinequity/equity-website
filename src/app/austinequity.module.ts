@@ -26,8 +26,10 @@ export class AustinequityModule {
     constructor(){
         //your codes
 bfast.init({
-    applicationId: '06c83f5d-97fb-43ec-939c-8cd8cab38ef8',
-    projectId: '7aa01166-590d-4881-b13f-c23a71e90fbe'
+    applicationId: 'austinequity',
+    projectId: 'austinequity',
+    databaseURL: 'http://austinequity.co.tz:8000',
+    functionsURL: 'http://austinequity.co.tz:8000'
 });
     }// end
 }

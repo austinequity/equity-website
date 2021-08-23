@@ -11,11 +11,13 @@ import {CategoriesComponent} from './components/categories.component';
 import {CategoryItemComponent} from './components/category-item.component';
 import {DepositBodyComponent} from './components/deposit-body.component';
 import {FooterComponent} from './components/footer.component';
+import {LoginComponent} from './components/login.component';
 import {NavbarComponent} from './components/navbar.component';
 import {ProjectsFilterComponent} from './components/projects-filter.component';
 import {ProjectsComponent} from './components/projects.component';
 import {ProjectspecificBannerComponent} from './components/projectspecific-banner.component';
 import {ProjectspecificBodyComponent} from './components/projectspecific-body.component';
+import {RegistrationComponent} from './components/registration.component';
 import {AboutPage} from './pages/about.page';
 import {DepositionPagePage} from './pages/deposition-page.page';
 import {HowitworksPage} from './pages/howitworks.page';
@@ -28,6 +30,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 const routes: Routes = [
    { path: 'home', canActivate: [  ], component: IndexPage },
@@ -57,11 +61,13 @@ const routes: Routes = [
      CategoryItemComponent,
      DepositBodyComponent,
      FooterComponent,
+     LoginComponent,
      NavbarComponent,
      ProjectsFilterComponent,
      ProjectsComponent,
      ProjectspecificBannerComponent,
      ProjectspecificBodyComponent,
+     RegistrationComponent,
   ],
   imports: [
     CommonModule,
@@ -79,6 +85,8 @@ const routes: Routes = [
     MatTabsModule,
     MatSidenavModule,
     MatProgressBarModule,
+    ReactiveFormsModule,
+    MatSnackBarModule,
   ],
   exports: [
     
