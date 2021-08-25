@@ -13,7 +13,6 @@ import {DepositBodyComponent} from './components/deposit-body.component';
 import {FooterComponent} from './components/footer.component';
 import {LoginComponent} from './components/login.component';
 import {NavbarComponent} from './components/navbar.component';
-import {ProjectsFilterComponent} from './components/projects-filter.component';
 import {ProjectsComponent} from './components/projects.component';
 import {ProjectspecificBannerComponent} from './components/projectspecific-banner.component';
 import {ProjectspecificBodyComponent} from './components/projectspecific-body.component';
@@ -63,7 +62,6 @@ const routes: Routes = [
      FooterComponent,
      LoginComponent,
      NavbarComponent,
-     ProjectsFilterComponent,
      ProjectsComponent,
      ProjectspecificBannerComponent,
      ProjectspecificBodyComponent,

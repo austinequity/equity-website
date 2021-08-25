@@ -17,7 +17,7 @@ export class RegisterState {
     async register(firstName,lastName,email,password,repeatPassword): Promise<any> {
         this.registerProgress.next(true);
 if(password !== repeatPassword){
-    this.infoService.show('Password does not match');
+    this.infoService.show('Password does not match');  
     return;
 }
 this.userService.register({

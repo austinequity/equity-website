@@ -1,5 +1,5 @@
 *{
-  outline: 1px dotted red;
+//   outline: 1px dotted red;
   margin: 0 auto;
   padding: 0;
 }
@@ -43,7 +43,14 @@
     display: flex;
     flex-direction: column;
     font-size: 48px;
+    background-color: whitesmoke;
    
+}
+
+.progress-bar{
+    width: 90%;
+    height: 20px;
+    background-color: whitesmoke;
 }
 
 

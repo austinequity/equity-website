@@ -66,7 +66,7 @@ import {FormGroup} from '@angular/forms';
               <td>&nbsp;</td>
             </tr>
             <tr>
-             <td>Already have an account ?<a href="login.html" rel="login" style="color: darkgreen;">Sign Up</a></td>
+             <td>Already have an account ?<a routerLink="/login" rel="login" style="color: darkgreen;">Login</a></td>
             </tr>
           </table>
 
