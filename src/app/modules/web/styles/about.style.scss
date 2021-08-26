@@ -1,13 +1,9 @@
-.aboutsideA{
-  padding-right: 2em;
-  line-height:24px;
-  font-size:20px;
-}
 
-.about-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
+// .about-grid{
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+// }
 
 
 .wrapper{
@@ -18,4 +14,9 @@ width:80%;
 .sector-specific{
   width: 100%;
   height: 400px;
+}
+
+
+.a facebook{
+  color: red;
 }

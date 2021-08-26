@@ -50,10 +50,14 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
     <div class="row">
       <div class="col-sm-12 col-md-6">
         <h6>About</h6>
-        <p class="text-justify">AustinEquity.com <i>DIGITAL INVESTMENT</i> is initiative to offer a platform that will
-          emphasize on crowd funding investments. Austin Equity based on being a pioneer in this assures long term investments to
-          all of its investors and assuring financially reasonable return making this platform a financial security to
-          our clients as we endavour through low risk investments with high protection measures taken.</p>
+        <p class="text-justify">AustinEquity.co.tz
+           Crowd funding investments platform allows you to invest
+           into projects in smaller 
+          amounts than it
+          would be required, if you would be a sole investor and start benefitting
+          from your investments almost immediately. You also have a better opportunity to diversify 
+          your investments
+          between different projects and keep your investments safe.</p> 
       </div>
 
       <div class="col-xs-6 col-md-3">
@@ -81,7 +85,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12">
-        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
           <a href="#">AustinEquity</a>.
         </p>
       </div>

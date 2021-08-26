@@ -33,7 +33,12 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
             </div>
             
   <mat-drawer #drawer class="example-sidenav" mode="side">
-    <p>Auto-resizing sidenav</p>
+    <p><a class="nav-link" routerLink='/projects/:category'>projects</a></p>
+    <!-- <p><a class="nav-link" routerLink='/howitworks'>How it works?</a></p>
+    <p><a class="nav-link" routerLink='/about'>ABOUT</a></p>
+    <p><a class="nav-link" routerLink='/login'>LOGIN</a></p>
+    <p><a class="nav-link" routerLink='/register'>REGISTER</a></p> -->
+
   </mat-drawer>
 
   
