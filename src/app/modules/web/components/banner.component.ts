@@ -14,7 +14,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
             </p>
             <form>
                 <input placeholder="Enter email here" type="email" name="emailid" class="showcaseemail">
-                <input type="submit" name="login" class="getstarted" value="START INVESTING">
+                <input type="submit" name="login" class="getstarted" value="START INVESTING ">
             </form>
         </div>
     </div>
