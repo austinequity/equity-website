@@ -88,7 +88,7 @@ padding-bottom: 15px;
 .projectspecific-investing-tab{
     height: auto;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 19px;
     display: flex;
     flex-direction: column;
     background: #fff;
@@ -131,41 +131,30 @@ font-size: 17px;
   color: #7c7c7c;
 }
 
-.percent{
-  text-align: left;
-}
 
-.amount-funded{
-text-align: right;
-}
 
 .invsto-info{
   height: auto;
   width: 100%;
   padding-top: 5px;
   font-size: 16px;
+  line-height: 1.5rem;
 }
 
-.duration{
+.space-between-spans{
  display: flex;
  justify-content: space-between;
 }
 
-.potential-growth{
-   display: flex;
- justify-content: space-between;
-}
 
-.share-price{
-   display: flex;
- justify-content: space-between;
-}
 
+// beggining of the form
 .investment-form{
   height: auto;
   width: 100%;
 }
 
+// sehemu ya bar ya malipo
 .units-investing{
 border: 1px solid #0ea33d;
 padding: 2px;
@@ -202,8 +191,15 @@ button{
   
 }
 
+// sehemu ya chini, code zake za chini zipo na style spabe-between-spans
+.investment-analytics{
+  height: auto;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
 
-
-
-
-
+.totalInvestment-figure{
+  color: blue;
+}

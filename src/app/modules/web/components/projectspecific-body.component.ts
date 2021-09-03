@@ -58,15 +58,15 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
         </div>
 
         <div class="invsto-info">
-          <div class="duration">
+          <div class="space-between-spans">
             <span class="duration-data">Duration</span>
             <span class="duration-figure">15 Years</span>
           </div>
-          <div class="potential-growth">
+          <div class="space-between-spans">
             <span class="potentialGrowth-data">Potential growth</span>
             <span class="potentialGrowth-figure">95%</span>
           </div>
-          <div class="share-price">
+          <div class="space-between-spans">
             <span class="sharePrice-data">Share price</span>
             <span class="sharePrice-figure">2,500</span>
           </div>
@@ -81,6 +81,26 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
               <button type="submit">Invest</button>
             </div>
             <div class="investment-analytics">
+                  <div class="space-between-spans">
+                <span class="share-price-analytics-data">Share price</span>
+                <span class="share-price-analytics-figure">2500</span>
+              </div>
+              <div class="space-between-spans">
+                <span class="shares-data">Shares</span>
+                <span class="shares-figure">23</span>
+              </div>
+              <div class="space-between-spans">
+                <span class="investment-total-data">Investment</span>
+                <span class="investment-total-figure">2000000</span>
+              </div>
+              <div class="space-between-spans">
+                <span class="transactionCost-data">Transaction cost</span>
+                <span class="transactionCost-figure">0</span>
+              </div>
+              <div class="space-between-spans">
+                <span class="totalInvestment-data">Total</span>
+                <span class="totalInvestment-figure">200000</span>
+              </div>
             </div>
           </form>
         </div>
