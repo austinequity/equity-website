@@ -41,35 +41,48 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
       <!-- Hii ni sehemu ya chini inayofanya the investing place -->
       <div class="projectspecific-investing-tab">
         <div class="funding-target">
-          <span>Funding target</span>
+          <span class="funding">Funding target</span><br>
           <span class="amount">20,000,0000</span>
         </div>
-
-        <div class="progress">
-          <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+        <br>
+        <div class="progress-main">
+          <div class="mat">
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </div>
 
           <div class="progress-info">
-            <span class="percent">45% funded</span> &nbsp;<span class="amount-funded">200,000 funded</span>
+            <span class="percent">45% funded</span>
+            <span class="amount-funded">TZS 200,000 funded</span>
           </div>
 
         </div>
+
         <div class="invsto-info">
-              <div class="duration">
-                <span class="duration-data">Duration</span>
-                <span class="duration-figure">15 Years</span>
-              </div>
-                <div class="potential-growth">
-                  <span class="potentialGrowth-data">Potential growth</span>
-                   <span class="potentialGrowth-figure">95%</span>
-                </div>
-                  <div class="share price">
-                    <span class="sharePrice-data">Share price</span>
-                    <span class="sharePrice-figure">2,500</span>
-                  </div>
+          <div class="duration">
+            <span class="duration-data">Duration</span>
+            <span class="duration-figure">15 Years</span>
+          </div>
+          <div class="potential-growth">
+            <span class="potentialGrowth-data">Potential growth</span>
+            <span class="potentialGrowth-figure">95%</span>
+          </div>
+          <div class="share-price">
+            <span class="sharePrice-data">Share price</span>
+            <span class="sharePrice-figure">2,500</span>
+          </div>
         </div>
-        <div class="units-investing">
-        </div>
-        <div class="investment-analytics">
+
+        <div class="investment-form">
+          <form>
+            <div class="units-investing">
+              
+                <input type="text" class="amount-input" autocomplete="off" maxlength="9000000">
+        
+              <button type="submit">Invest</button>
+            </div>
+            <div class="investment-analytics">
+            </div>
+          </form>
         </div>
 
       </div>
