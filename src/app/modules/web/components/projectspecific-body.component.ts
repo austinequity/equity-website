@@ -5,30 +5,79 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 
 @Component({
     selector: 'app-projectspecific-body',
-    template: `<!-- prjctspcfic-body-grid = projectspecific body-grid -->
-<div class="prjctspcfic-body-grid">
-    <div class="prjctspcfic-links">
+    template: `<div class="body">
+  <div class="projectspecific-body-grid">
+    <div class="left-projectspecific">
+      <mat-tab-group animationDuration="0ms">
+        <mat-tab label="Project Overview">
+          <h3>Project Overview</h3>
+        </mat-tab>
+        <mat-tab label="Investment Case">
+          <h3>Investment Case</h3>
+        </mat-tab>
+        <mat-tab label="Financials">
+          <h3>Financials</h3>
+        </mat-tab>
+        <mat-tab label="Technical Overview">
+          <h3>Technical Overview</h3>
+        </mat-tab>
+      </mat-tab-group>
 
     </div>
-    <div class="secured-investment">
-        
-    </div>   
 
-    <div class="prjctspcfic-body-paragraph">
 
-    </div>    
+    <div class="right-projectspecific">
+      <div class="assurance-note">
+        <div class="square-icon">
+          <img src="/assets/imgsvd/secure.svg">
+          </div>
+        <div class="guarantee-content">
+          <h2>Safety guaranteed</h2>
+          <p>This project has passed austin equity risk assesment,and is secured</p>
+        </div>
 
-    <div class="prjctspcfic-body-investing">
+      </div>
+
+      <!-- Hii ni sehemu ya chini inayofanya the investing place -->
+      <div class="projectspecific-investing-tab">
         <div class="funding-target">
-            <h1>Funding target</h1>
-            <h2 class="amount-target">1,000,000</h2>
+          <span>Funding target</span>
+          <span class="amount">20,000,0000</span>
         </div>
-        <div class="progress-bar">
-           <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+
+        <div class="progress">
+          <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+
+          <div class="progress-info">
+            <span class="percent">45% funded</span> &nbsp;<span class="amount-funded">200,000 funded</span>
+          </div>
+
         </div>
-    </div>     
+        <div class="invsto-info">
+              <div class="duration">
+                <span class="duration-data">Duration</span>
+                <span class="duration-figure">15 Years</span>
+              </div>
+                <div class="potential-growth">
+                  <span class="potentialGrowth-data">Potential growth</span>
+                   <span class="potentialGrowth-figure">95%</span>
+                </div>
+                  <div class="share price">
+                    <span class="sharePrice-data">Share price</span>
+                    <span class="sharePrice-figure">2,500</span>
+                  </div>
+        </div>
+        <div class="units-investing">
+        </div>
+        <div class="investment-analytics">
+        </div>
+
+      </div>
 
 
+    </div>
+
+  </div>
 </div>`,
     styleUrls: ['../styles/prjct-specific-body.style.scss']
 })
