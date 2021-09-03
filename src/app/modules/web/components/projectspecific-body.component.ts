@@ -6,6 +6,13 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 @Component({
     selector: 'app-projectspecific-body',
     template: `<div class="body">
+  <div class="project-specific-title">
+    <span class="project-name">Eucalyptus trees plantation</span>
+    <span class="project-location">Njombe njia kuu </span>
+  </div>
+  <div class="prjct-specific-banner" >
+
+   </div>
   <div class="projectspecific-body-grid">
     <div class="left-projectspecific">
       <mat-tab-group animationDuration="0ms">

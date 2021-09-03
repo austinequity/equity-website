@@ -6,7 +6,7 @@ import {BehaviorSubject, Subject} from 'rxjs';
 @Component({
     selector: 'app-projectspecific-page',
     template: `<app-navbar></app-navbar>
-<app-projectspecific-banner></app-projectspecific-banner>
+
 <app-projectspecific-body></app-projectspecific-body>
 <app-footer></app-footer>`,
     styleUrls: []

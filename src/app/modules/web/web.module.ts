@@ -14,7 +14,6 @@ import {FooterComponent} from './components/footer.component';
 import {LoginComponent} from './components/login.component';
 import {NavbarComponent} from './components/navbar.component';
 import {ProjectsComponent} from './components/projects.component';
-import {ProjectspecificBannerComponent} from './components/projectspecific-banner.component';
 import {ProjectspecificBodyComponent} from './components/projectspecific-body.component';
 import {RegistrationComponent} from './components/registration.component';
 import {AboutPage} from './pages/about.page';
@@ -63,7 +62,6 @@ const routes: Routes = [
      LoginComponent,
      NavbarComponent,
      ProjectsComponent,
-     ProjectspecificBannerComponent,
      ProjectspecificBodyComponent,
      RegistrationComponent,
   ],
