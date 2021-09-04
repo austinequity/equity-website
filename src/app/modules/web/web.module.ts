@@ -12,6 +12,7 @@ import {CategoryItemComponent} from './components/category-item.component';
 import {DepositBodyComponent} from './components/deposit-body.component';
 import {FooterComponent} from './components/footer.component';
 import {LoginComponent} from './components/login.component';
+import {MydashboardComponent} from './components/mydashboard.component';
 import {NavbarComponent} from './components/navbar.component';
 import {ProjectsComponent} from './components/projects.component';
 import {ProjectspecificBodyComponent} from './components/projectspecific-body.component';
@@ -21,6 +22,7 @@ import {DepositionPagePage} from './pages/deposition-page.page';
 import {HowitworksPage} from './pages/howitworks.page';
 import {IndexPage} from './pages/index.page';
 import {LoginPage} from './pages/login.page';
+import {MyDashboardPage} from './pages/myDashboard.page';
 import {ProjectsPage} from './pages/projects.page';
 import {ProjectspecificPage} from './pages/projectspecific.page';
 import {RegistrationPage} from './pages/registration.page';
@@ -42,6 +44,7 @@ const routes: Routes = [
    { path: 'projectspecific', canActivate: [  ], component: ProjectspecificPage },
    { path: 'deposit', canActivate: [  ], component: DepositionPagePage },
    { path: 'index', canActivate: [  ], component: IndexPage },
+   { path: 'myDashboard', canActivate: [  ], component: MyDashboardPage },
 ];
 
 @NgModule({
@@ -51,6 +54,7 @@ const routes: Routes = [
      HowitworksPage,
      IndexPage,
      LoginPage,
+     MyDashboardPage,
      ProjectsPage,
      ProjectspecificPage,
      RegistrationPage,
@@ -60,6 +64,7 @@ const routes: Routes = [
      DepositBodyComponent,
      FooterComponent,
      LoginComponent,
+     MydashboardComponent,
      NavbarComponent,
      ProjectsComponent,
      ProjectspecificBodyComponent,
