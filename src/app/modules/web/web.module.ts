@@ -38,13 +38,13 @@ const routes: Routes = [
    { path: 'login', canActivate: [  ], component: LoginPage },
    { path: 'about', canActivate: [  ], component: AboutPage },
    { path: 'howitworks', canActivate: [  ], component: HowitworksPage },
-   { path: '', canActivate: [  ], component: IndexPage },
    { path: 'projects/:category', canActivate: [  ], component: ProjectsPage },
    { path: 'register', canActivate: [  ], component: RegistrationPage },
    { path: 'projectspecific', canActivate: [  ], component: ProjectspecificPage },
    { path: 'deposit', canActivate: [  ], component: DepositionPagePage },
    { path: 'index', canActivate: [  ], component: IndexPage },
    { path: 'myDashboard', canActivate: [  ], component: MyDashboardPage },
+   { path: '', canActivate: [  ], component: IndexPage },
 ];
 
 @NgModule({

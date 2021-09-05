@@ -26,7 +26,11 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
            <div class="myInvestment-noFund">
             <h1>My Investment</h1>
             <div class="no-fund-box">
+                <img src="/assets/imgsvd/attach-money.png" >
+                <div class="contentXbutton">
                 <span class="no-fund-boxAlert">You have no investments yet, you can start now</span>
+                <button class="start-investing"><a routerlink="/projects">Start investing</a></button>
+                </div>
             </div>
             </div>    
    </div>
