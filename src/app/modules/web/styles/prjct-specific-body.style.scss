@@ -68,6 +68,52 @@ padding-top: 15px;
 padding-bottom: 15px;
 }
 
+.financial-calc{
+  height: 177px;
+  width: 590px;
+  padding: 20px;
+  background: #fff;
+}
+
+.financial-calc-body{
+ display: flex;
+ flex-direction:row ;
+ justify-content: center;
+
+}
+
+.firstPart{
+  display: flex;
+  flex-direction: column;
+}
+
+.top-calc{
+  display: flex;
+  flex-direction: column;
+}
+
+.latestValuation-data{
+  text-decoration: underline;
+}
+
+.equals-calc{
+ padding-top: 80px 10px 0px 10px;
+
+}
+
+
+.low-calc{
+  display: flex;
+  flex-direction: column;
+}
+
+.soln-calc{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  background: blue;
+}
 
 // right hand side of the body
 .right-projectspecific{

@@ -36,11 +36,28 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
         <!-- .inabidi kuwe na variable ya available shares (units) ambayo ni latestvaluation/price ya share moja -->
         <mat-tab label="Financials">
           <h3>Financials</h3>
-          <div class=financial-calc>
+          <div class="financial-calc">
             <!-- so hizo mambo nilizoomba ndo ziingie in respective span -->
-            <span class="latestValuation"></span>
-            <span class="sharesAvailable"></span>
-            <span class="shareValue"></span>
+              <div class="financial-calc-body">
+                <div class="firstPart">
+                      <div class="top-calc">
+                          <span class="latestValuation-figure">2222222</span>
+                          <span class="latestValuation-data">latest Valuation</span>
+                      </div>
+                    
+                      <div class="low-calc">
+                          <span class="sharesAvailable-figure">44444</span>
+                          <span class="sharesAvailable-data">Shares</span>
+                      </div>
+               </div>
+                    <div class="equals-calc">
+                      =
+                    </div>
+                    <div class="soln-calc">
+                  <span class="shareValue-figure">5555</span>
+                  <span class="shareValue-data">Latest share valuation</span>
+                    </div>
+              </div>
             </div>
         </mat-tab>
         <!-- hapa kwenye Technical overview inabidi smart stock niwe na nafasi ya kuupload documents because hii sehemu mteja inabidi aweze kudownload resources kama financial statement -->
