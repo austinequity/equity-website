@@ -1,3 +1,6 @@
+// *{
+//     outline: 1px solid red;
+// }
 .category-home-container{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -69,4 +72,48 @@ margin-top: 1em;
 
 color: #000000;
 
+}
+
+
+// part ya testimonial
+
+
+
+.testomonial-coverup{
+ background-color:#F8F9FA ;
+ height: auto;
+ padding-top: 20px;
+}
+
+
+.testimonialHead{
+  margin-top: 10px;
+    font-size: 38px;
+   margin-left: 700px;
+   
+}
+
+.testimonial{
+    width:70% ;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.embodied{
+    margin: 10Px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
 }
