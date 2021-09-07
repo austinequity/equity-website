@@ -5,7 +5,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
 
 @Component({
     selector: 'app-category-item',
-    template: `<div class="category-item" routerLink='/projects/{{category.id}}'>
+    template: `<!-- <div class="category-item" routerLink='/projects/{{category.id}}'>
     <div class="category-img">
         <img style="width:100%; heigth: 100%" [src]="category.image.concat('/thumbnail?w=400&h=517')">
     </div>
@@ -14,7 +14,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
             <p class="category-text">{{category.name}}</p>
         </div>
     </div>
-</div>`,
+</div> -->`,
     styleUrls: ['../styles/category.style.scss']
 })
 export class CategoryItemComponent implements OnInit, OnDestroy, AfterViewInit {
