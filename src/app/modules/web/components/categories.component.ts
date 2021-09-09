@@ -130,7 +130,6 @@ export class CategoriesComponent implements OnInit, OnDestroy, AfterViewInit {
     async ngOnInit(): Promise<any> {
         //your codes
 this.categoryState.all();
-this.projectState.all();
     }
 
     async ngAfterViewInit(): Promise<any> {

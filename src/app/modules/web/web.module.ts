@@ -33,6 +33,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatCardModule} from '@angular/material/card';
+import {MatMenuModule} from '@angular/material/menu';
 
 const routes: Routes = [
    { path: 'home', canActivate: [  ], component: IndexPage },
@@ -90,6 +91,7 @@ const routes: Routes = [
     ReactiveFormsModule,
     MatSnackBarModule,
     MatCardModule,
+    MatMenuModule,
   ],
   exports: [
     

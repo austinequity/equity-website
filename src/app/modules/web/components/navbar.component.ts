@@ -27,7 +27,14 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
             </li>
         </ul>
         <div class="humburger">
-             <button >☰ </button>
+             <button mat-button [matMenuTriggerFor]="beforeMenu">☰</button>
+                <mat-menu #beforeMenu="matMenu" xPosition="before">
+                <button mat-menu-item><a class="nav-link" routerLink='/projects/:category'>projects</a></button>
+                <button mat-menu-item><a class="nav-link" routerLink='/howitworks'>How it works?</a></button>
+                <button mat-menu-item><a class="nav-link" routerLink='/about'>ABOUT</a></button>
+                <button mat-menu-item><a class="nav-link" routerLink='/login'>LOGIN</a></button>
+                <button mat-menu-item><a class="nav-link" routerLink='/register'>REGISTER</a></button>
+                </mat-menu>
         </div>
     </nav>
 </header>`,
