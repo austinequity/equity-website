@@ -17,6 +17,7 @@ import {NavbarComponent} from './components/navbar.component';
 import {ProjectsComponent} from './components/projects.component';
 import {ProjectspecificBodyComponent} from './components/projectspecific-body.component';
 import {RegistrationComponent} from './components/registration.component';
+import {SettingComponent} from './components/setting.component';
 import {AboutPage} from './pages/about.page';
 import {DepositionPagePage} from './pages/deposition-page.page';
 import {HowitworksPage} from './pages/howitworks.page';
@@ -26,6 +27,7 @@ import {MyDashboardPage} from './pages/myDashboard.page';
 import {ProjectsPage} from './pages/projects.page';
 import {ProjectspecificPage} from './pages/projectspecific.page';
 import {RegistrationPage} from './pages/registration.page';
+import {SettingsPage} from './pages/settings.page';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatSidenavModule} from '@angular/material/sidenav';
@@ -47,6 +49,7 @@ const routes: Routes = [
    { path: 'index', canActivate: [  ], component: IndexPage },
    { path: 'myDashboard', canActivate: [  ], component: MyDashboardPage },
    { path: '', canActivate: [  ], component: IndexPage },
+   { path: 'settings', canActivate: [  ], component: SettingsPage },
 ];
 
 @NgModule({
@@ -60,6 +63,7 @@ const routes: Routes = [
      ProjectsPage,
      ProjectspecificPage,
      RegistrationPage,
+     SettingsPage,
      BannerComponent,
      CategoriesComponent,
      CategoryItemComponent,
@@ -71,6 +75,7 @@ const routes: Routes = [
      ProjectsComponent,
      ProjectspecificBodyComponent,
      RegistrationComponent,
+     SettingComponent,
   ],
   imports: [
     CommonModule,
