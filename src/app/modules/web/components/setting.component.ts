@@ -12,7 +12,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
               <h1>Settings</h1>
           </div>
           <mat-list>
-                <mat-list-item class="item"><a routerLink='/cars'>General</a></mat-list-item>
+                <mat-list-item class="item"><a routerLink='cars'>General</a></mat-list-item>
                 <mat-divider class="dividingTool"></mat-divider>
                 <mat-list-item class="item">Security</mat-list-item>
                 <mat-divider class="dividingTool"></mat-divider>
@@ -21,11 +21,14 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
                 <mat-list-item class="item">KYC's</mat-list-item>
                 <mat-divider class="dividingTool"></mat-divider>
            </mat-list>
-        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <div class="settingContent">
-            <p id="cars">tyrueidjcn </p>
-        </div>
     </div>
+     <div class="settingContent">
+         <div class="generalSlide">
+             <!-- <form>
+             </form> -->
+         </div>
+           
+        </div>
 </div>    `,
     styleUrls: ['../styles/setting.style.scss']
 })
