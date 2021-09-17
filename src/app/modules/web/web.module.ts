@@ -37,6 +37,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
 
 const routes: Routes = [
    { path: 'home', canActivate: [  ], component: IndexPage },
@@ -99,6 +100,7 @@ const routes: Routes = [
     MatCardModule,
     MatMenuModule,
     MatDividerModule,
+    MatListModule,
   ],
   exports: [
     

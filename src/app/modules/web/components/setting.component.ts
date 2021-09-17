@@ -29,7 +29,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
          </div>
            
         </div>
-</div>    `,
+</div>`,
     styleUrls: ['../styles/setting.style.scss']
 })
 export class SettingComponent implements OnInit, OnDestroy, AfterViewInit {
