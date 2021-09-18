@@ -1,0 +1,35 @@
+//the side left part of the setting
+.settingSidebar{
+  background-color: #Fff;
+  height: 600px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+}
+
+.SettingHeader{
+  padding: 10px;
+  padding-left: 40px;
+  height: 60px;
+  width: 100%;
+  background-color: #1453F4;
+  color:#Fff;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 20px;
+}
+
+h1{
+  justify-content: center;
+  font-size: 26px;
+}
+
+.item{
+  font-size: 18px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.dividingTool{
+  margin-bottom: 25px;
+}

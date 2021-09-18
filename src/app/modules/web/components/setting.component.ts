@@ -7,21 +7,7 @@ import {Component, AfterViewInit, EventEmitter, Input, OnDestroy, OnInit, Output
     selector: 'app-setting',
     template: `<div class="body">  
    <div class="settingBody">
-        <div class="settingSidebar">
-          <div class="SettingHeader">
-              <h1>Settings</h1>
-          </div>
-          <mat-list>
-                <mat-list-item class="item"><a routerLink='cars'>General</a></mat-list-item>
-                <mat-divider class="dividingTool"></mat-divider>
-                <mat-list-item class="item">Security</mat-list-item>
-                <mat-divider class="dividingTool"></mat-divider>
-                <mat-list-item class="item">Billing info</mat-list-item>
-                <mat-divider class="dividingTool"></mat-divider>
-                <mat-list-item class="item">KYC's</mat-list-item>
-                <mat-divider class="dividingTool"></mat-divider>
-           </mat-list>
-    </div>
+     <app-setting-sidebar></app-setting-sidebar>
      <div class="settingContent">
          <div class="generalSlide">
              <!-- <form>

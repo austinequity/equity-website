@@ -17,6 +17,7 @@ import {NavbarComponent} from './components/navbar.component';
 import {ProjectsComponent} from './components/projects.component';
 import {ProjectspecificBodyComponent} from './components/projectspecific-body.component';
 import {RegistrationComponent} from './components/registration.component';
+import {SettingSidebarComponent} from './components/setting-sidebar.component';
 import {SettingComponent} from './components/setting.component';
 import {AboutPage} from './pages/about.page';
 import {DepositionPagePage} from './pages/deposition-page.page';
@@ -77,6 +78,7 @@ const routes: Routes = [
      ProjectsComponent,
      ProjectspecificBodyComponent,
      RegistrationComponent,
+     SettingSidebarComponent,
      SettingComponent,
   ],
   imports: [
