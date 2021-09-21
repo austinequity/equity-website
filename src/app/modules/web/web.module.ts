@@ -19,6 +19,9 @@ import {ProjectspecificBodyComponent} from './components/projectspecific-body.co
 import {RegistrationComponent} from './components/registration.component';
 import {SettingSidebarComponent} from './components/setting-sidebar.component';
 import {SettingComponent} from './components/setting.component';
+import {SettingsbillingComponent} from './components/settingsbilling.component';
+import {SettingskycsComponent} from './components/settingskycs.component';
+import {SettingssecurityComponent} from './components/settingssecurity.component';
 import {AboutPage} from './pages/about.page';
 import {DepositionPagePage} from './pages/deposition-page.page';
 import {HowitworksPage} from './pages/howitworks.page';
@@ -28,7 +31,10 @@ import {MyDashboardPage} from './pages/myDashboard.page';
 import {ProjectsPage} from './pages/projects.page';
 import {ProjectspecificPage} from './pages/projectspecific.page';
 import {RegistrationPage} from './pages/registration.page';
+import {SettingbillinginfoPage} from './pages/settingbillinginfo.page';
 import {SettingsPage} from './pages/settings.page';
+import {SettingskycsPage} from './pages/settingskycs.page';
+import {SettingssecurityPage} from './pages/settingssecurity.page';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatSidenavModule} from '@angular/material/sidenav';
@@ -53,6 +59,9 @@ const routes: Routes = [
    { path: 'myDashboard', canActivate: [  ], component: MyDashboardPage },
    { path: '', canActivate: [  ], component: IndexPage },
    { path: 'settings', canActivate: [  ], component: SettingsPage },
+   { path: 'settingssecurity', canActivate: [  ], component: SettingssecurityPage },
+   { path: 'settingsbilling', canActivate: [  ], component: SettingbillinginfoPage },
+   { path: 'settingskycs', canActivate: [  ], component: SettingskycsPage },
 ];
 
 @NgModule({
@@ -66,7 +75,10 @@ const routes: Routes = [
      ProjectsPage,
      ProjectspecificPage,
      RegistrationPage,
+     SettingbillinginfoPage,
      SettingsPage,
+     SettingskycsPage,
+     SettingssecurityPage,
      BannerComponent,
      CategoriesComponent,
      CategoryItemComponent,
@@ -80,6 +92,9 @@ const routes: Routes = [
      RegistrationComponent,
      SettingSidebarComponent,
      SettingComponent,
+     SettingsbillingComponent,
+     SettingskycsComponent,
+     SettingssecurityComponent,
   ],
   imports: [
     CommonModule,
