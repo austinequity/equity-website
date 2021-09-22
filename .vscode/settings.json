@@ -1,0 +1,6 @@
+{
+    "spotify.showPlayButton": true,
+    "spotify.showToggleShufflingButton": true,
+    "spotify.showToggleRepeatingButton": true,
+    "spotify.showVolumeDownButton": true
+}
