@@ -1,0 +1,49 @@
+Scenarios, A platform limited to group members, so users are not just any one.
+Aim of the platform to serve as a central platform for the group members to manage their investments, and make it easier for members to collaborate
+
+//Participants
+-members role
+-superadmin role
+
+//Members doings in the Platform
+-Is Provided with the login details, to access the website
+-is able eto deposit money to purchase a project ownership, (payment means can be possible through any reffered means then slip evidence is uploaded.)
+-User wants to be able to be able to view investment records they have made____-In this be able to see the investment status and all related statistics
+-User be able to suggest an investment plan for other members to tap in.______-member puts all required stuffs for a project is suggesting
+-Have a notifications set so as to get notified on all platform activities.
+-Withdraw functionality
+    -If project is listed{
+     -Should be able to have a listed project dashboard
+     -Should be able to validate recieve of funds of fellow meembers.
+     -Should be able to make project maturity despach message.
+     -list the cash paid by investment so system can do the math of distributing the fund to contributors
+     -can make reinvestment case if needed to which{
+     -Opportunity to invest again is listed
+     -Asks if any withdraw
+     -Makes addition to new investments, adds on to new and old investment to make a new principal\
+     -Project is kickstarted again the circle repeats
+     }
+    }
+
+
+//superadmin role functionalities.
+-Registerign new members to the platform
+-Removing User from the platform
+
+
+//VALUABLE NOTES
+
+__Core requirments for a project being listed.
+-Name of the project
+-Physical happening place if available
+-Listing of estimated timing of the project.
+-Minimal amount of fund for project to kickstart.
+-estimated interest, or valuation of the project return on Investment.
+-Description, contains all important facts about that investment
+
+___Preceeding after listing.
+-Project is matured the lister, mark th project complete
+-Project organizing member has listed the return, the system has divided the fund to contributors
+-Project organizing member starts the payout to the members, if any charges is used the organizier deducts from the benefiter  
+-If the project has to serve a reinvestment phase,  the sytem should cater this situation
+
